@@ -1,5 +1,6 @@
 from llama_cpp import Llama
-
+import numpy as np
+import librosa
 # Load the model
 model = Llama(
     model_path="llama-2-7b.Q2_K.gguf",
