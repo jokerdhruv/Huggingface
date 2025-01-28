@@ -151,7 +151,7 @@ print("Transcribed Text: ", transcribed_text)  # Print the transcribed text
 try:
     llama = Llama(
         model_path="llama-2-7b.Q2_K.gguf",  # Replace with the actual model path to your Llama model
-        n_ctx=2048  ,
+        n_ctx=4096  ,
         n_gpu_layers=0,  # Set this based on whether you're using GPU or CPU
         embedding=True  # Enable word embedding functionality
     )
